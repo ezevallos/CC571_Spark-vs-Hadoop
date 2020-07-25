@@ -1,13 +1,14 @@
 ## CountSales
 
-Es un programa que nos ayuda en el análisis de una pequeña base de datos llamada SalesJan2009.csv (para este caso en particular).
+This project created in Java will allow us to analyze a small database that is kept in a file called SalesJan2009.csv (for this particular case).
 
-Una breve reseña de las carpetas:
+A brief description of the folders:
 
-  * `src`: Contiene los archivos fuente con los que se realizan las pruebas, aqui encontraremos los archivos:
+  * `src`: This folder contains the source files with which the tests are performed, here we will find the following files:
   
-    - *SalesCountryDriver*: Es el archivo donde determinaremos que (o en cuales) campos se desea realizar una búsqueda para su conteo u operación designada.
-    - *SalesCountryReducer*: Es el encargado de realizar el conteo u operación designada.
-    - *SalesMapper*: Es el archivo encargado de realizar el mapeo del archivo que estamos ingresando.
+    - *SalesCountryDriver*: It is the file where we determine in which (or what) fields a search will be made for its count or designated operation.
+    - *SalesCountryReducer*: This file is responsible for performing the count or designated operation.
+    - *SalesMapper*: It is the file in charge of mapping the file we are entering.
   
-  * `dist`: Contiene el archivo *jar* que realizará los cálculos establecidos en los archivos fuente.
+  * `dist`: Contains the executable file * jar * that will perform the calculations set in the source files.
+
